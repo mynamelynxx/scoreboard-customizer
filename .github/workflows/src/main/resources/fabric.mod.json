@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "scoreboardcustomizer",
+  "version": "${version}",
+  "name": "Scoreboard Customizer",
+  "description": "Кастомизация scoreboard на серверах",
+  "authors": [
+    "YourName"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/scoreboardcustomizer/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.scoreboardcustomizer.ScoreboardCustomizer"
+    ]
+  },
+  "mixins": [
+    "scoreboardcustomizer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
