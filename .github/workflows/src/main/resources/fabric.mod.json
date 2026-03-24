@@ -1,15 +1,17 @@
 {
   "schemaVersion": 1,
   "id": "scoreboardcustomizer",
-  "version": "${version}",
+  "version": "1.0.0",
   "name": "Scoreboard Customizer",
   "description": "Кастомизация scoreboard на серверах",
   "authors": [
     "YourName"
   ],
-  "contact": {},
+  "contact": {
+    "homepage": "https://github.com/mynamelynox/scoreboard-customizer",
+    "sources": "https://github.com/mynamelynox/scoreboard-customizer"
+  },
   "license": "MIT",
-  "icon": "assets/scoreboardcustomizer/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
